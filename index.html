@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>漫慢看 ManManKan</title>
+<meta name="description" content="漫慢看 ManManKan 是個人與家庭使用的漫畫閱讀器，支援 Windows、Android 與 Android TV，可選擇以 Google Drive 同步書庫與閱讀進度。">
+<meta name="theme-color" content="#126c6d">
+<link rel="icon" href="icon.png" type="image/png">
+<style>
+:root{color-scheme:light;--paper:#fbf8f1;--ink:#193c3d;--muted:#526867;--line:#d8e1da;--teal:#126c6d;--soft:#eaf1e9;--coral:#b64d35}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:system-ui,-apple-system,"Segoe UI","Microsoft JhengHei",sans-serif;line-height:1.8}a{color:var(--teal);text-underline-offset:.23em}a:hover{color:var(--coral)}a:focus-visible{outline:3px solid var(--coral);outline-offset:5px;border-radius:3px}.wrap{width:min(1080px,calc(100% - 48px));margin-inline:auto}.skip{position:absolute;left:16px;top:-80px;background:var(--paper);padding:8px 16px;z-index:2}.skip:focus{top:12px}header{padding:25px 0;border-bottom:1px solid var(--line)}.header-inner{display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{display:flex;align-items:center;gap:11px;text-decoration:none;color:var(--ink);font-weight:750;letter-spacing:.04em}.brand img{width:42px;height:42px;border-radius:12px}.brand small{display:block;font-size:11px;letter-spacing:.14em;line-height:1.2;color:var(--muted)}nav{display:flex;gap:24px;font-size:14px}nav a{text-decoration:none}nav a[aria-current=page]{font-weight:750;text-decoration:underline}.eyebrow{font-size:12px;font-weight:700;letter-spacing:.13em;color:var(--teal);text-transform:uppercase}.hero{display:grid;grid-template-columns:1.1fr 1fr;align-items:center;gap:76px;padding:78px 0 82px}.hero h1{font-size:clamp(38px,5.2vw,62px);line-height:1.25;letter-spacing:-.045em;margin:18px 0 26px;font-weight:750}.hero p{font-size:17px;max-width:29em;color:var(--muted);margin:0 0 26px}.hero figure{margin:0}.hero figure img{display:block;width:100%;height:auto;border-radius:32px}.hero figcaption{font-size:12px;color:var(--muted);margin-top:14px;text-align:center;letter-spacing:.06em}.button{display:inline-block;background:var(--teal);color:white;border:1px solid var(--teal);border-radius:8px;padding:11px 20px;text-decoration:none;font-weight:650;font-size:14px}.button:hover{background:var(--ink);color:white}.section{padding:48px 0;border-top:1px solid var(--line)}.section h2{margin:0 0 20px;font-size:25px;letter-spacing:-.025em}.reading{display:grid;grid-template-columns:1fr 1.8fr;gap:56px}.reading p{margin:0 0 14px;color:var(--muted)}.platforms{display:flex;gap:10px;flex-wrap:wrap;padding:0;list-style:none;margin:22px 0 0}.platforms li{padding:5px 14px;border:1px solid var(--line);border-radius:30px;font-size:13px;color:var(--ink)}.note{background:var(--soft);border-radius:16px;padding:24px 28px;margin:0 0 56px}.note p{margin:0;font-size:14px;color:var(--muted)}.note a{font-weight:650}footer{border-top:1px solid var(--line);padding:25px 0 36px;color:var(--muted);font-size:12px}.footer-inner{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}.footer-inner p{margin:0}.footer-links{display:flex;gap:20px}.policy{max-width:760px;padding:58px 0 60px}.policy h1{font-size:clamp(32px,5vw,44px);letter-spacing:-.035em;line-height:1.3;margin:12px 0 14px}.policy .intro{font-size:17px;color:var(--muted)}.updated{font-size:12px;color:var(--muted);margin:0 0 28px}.policy section{margin-top:34px;padding-top:30px;border-top:1px solid var(--line)}.policy h2{font-size:21px;margin:0 0 12px;line-height:1.5}.policy p{margin:10px 0}.policy ul{padding-left:1.4em;margin:12px 0}.policy li{padding-left:.2em;margin:8px 0}.policy .brief{background:var(--soft);padding:20px 24px;border-radius:12px}.policy .brief p{margin:0}.policy a{overflow-wrap:anywhere}.back{display:inline-block;margin-top:28px}
+@media(max-width:720px){.wrap{width:calc(100% - 36px)}header{padding:18px 0}.header-inner{gap:14px}.brand{font-size:14px}.brand img{width:36px;height:36px}.brand small{font-size:9px}nav{gap:15px;font-size:13px}.hero{grid-template-columns:1fr;gap:36px;padding:43px 0 44px}.hero h1{margin:13px 0 22px}.hero figure{max-width:360px;justify-self:center}.hero figure img{border-radius:24px}.hero p{font-size:16px}.reading{grid-template-columns:1fr;gap:8px}.section{padding:32px 0}.section h2{font-size:23px}.note{padding:22px;margin-bottom:34px}.policy{padding:36px 0 42px}.policy .intro{font-size:16px}.policy h2{font-size:20px}.footer-inner{gap:14px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">跳至主要內容</a>
+<header><div class="wrap header-inner">
+<a class="brand" href="index.html"><img src="icon.png" width="42" height="42" alt=""><span>漫慢看<small>MANMANKAN</small></span></a>
+<nav aria-label="主要導覽"><a href="index.html" aria-current="page">介紹</a><a href="privacy.html">隱私政策</a></nav>
+</div></header>
+
+<main id="main" class="wrap">
+<section class="hero" aria-labelledby="intro-title">
+<div><div class="eyebrow">漫慢看 ManManKan</div><h1 id="intro-title">故事很長，<br>慢慢看就好。</h1><p>為個人與家庭打造的漫畫閱讀器。把喜歡的故事留在書庫，在電腦、手機或電視上，照自己的步調讀下去。</p><a class="button" href="privacy.html">了解資料如何使用 <span aria-hidden="true">↗</span></a><ul class="platforms" aria-label="支援平台"><li>Windows</li><li>Android</li><li>Android TV</li></ul></div>
+<figure><img src="icon.png" width="1024" height="1024" alt="讀著漫畫的小蝸牛，漫慢看的 App 圖示"><figcaption>翻一頁，留一點時間給故事。</figcaption></figure>
+</section>
+<section class="section reading" aria-labelledby="reading-title"><div><div class="eyebrow">自己的書庫，自己的步調</div><h2 id="reading-title">閱讀，也記得讀到哪裡。</h2></div><div><p>漫慢看以 Mangayomi 開源專案為基礎，整理書庫、記錄章節與閱讀歷史，讓日常閱讀更方便。</p><p>需要跨裝置接續時，可自行選擇 Google Drive 同步。登入授權後，同步資料保存在您的 Google Drive；也可讀取其中 Comics 目錄的漫畫檔案。未連結 Google Drive 時，不會透過這項功能同步。</p></div></section>
+<div class="note"><p>Google Drive 是可選功能。帳號識別、同步內容、本機授權保存與撤銷方式，請參閱<a href="privacy.html">隱私政策與資料使用說明</a>。</p></div>
+</main>
+<footer><div class="wrap footer-inner"><p>漫慢看 ManManKan · 個人與家庭閱讀</p><div class="footer-links"><a href="privacy.html">隱私政策</a><a href="https://github.com/lizc1216/manmankan-site/issues">問題與隱私聯絡</a></div></div></footer>
+</body>
+</html>
